@@ -23,7 +23,7 @@ RAM	my_fifo_t	blt_rxfifo = { 64, 8, 0, 0, blt_rxfifo_b,};
 RAM uint8_t 			blt_txfifo_b[40 * 16] = {0};
 RAM	my_fifo_t	blt_txfifo = { 40, 16, 0, 0, blt_txfifo_b,};
 
-RAM uint8_t	ble_name[] = {11, 0x09, 'A', 'T', 'C', '_', '0', '0', '0', '0', '0', '0'};
+RAM uint8_t	ble_name[] = {11, 0x09, 'o', 'w', 'o', '_', '0', '0', '0', '0', '0', '0'};
 
 RAM bool show_temp_humi_Mi = true;
 
